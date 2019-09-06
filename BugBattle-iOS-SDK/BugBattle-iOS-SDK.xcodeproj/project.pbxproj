@@ -17,7 +17,7 @@
 		502CB7762322E1A600403ADD /* BugBattleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 502CB7642322E1A600403ADD /* BugBattleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		502CB7782322E1A600403ADD /* BugBattleImageEditorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 502CB7662322E1A600403ADD /* BugBattleImageEditorViewController.h */; };
 		502CB7792322E1A600403ADD /* BugBattleTouchDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 502CB7672322E1A600403ADD /* BugBattleTouchDrawImageView.m */; };
-		502CB77A2322E1A600403ADD /* UIWindow+BugBattleShakeRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 502CB7682322E1A600403ADD /* UIWindow+BugBattleShakeRecognizer.h */; };
+		502CB77A2322E1A600403ADD /* UIWindow+BugBattleShakeRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 502CB7682322E1A600403ADD /* UIWindow+BugBattleShakeRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		502CB77B2322E1A600403ADD /* BugBattleCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 502CB7692322E1A600403ADD /* BugBattleCore.m */; };
 		502CB77C2322E1A600403ADD /* BugBattleBugDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 502CB76A2322E1A600403ADD /* BugBattleBugDetailsViewController.h */; };
 		502CB77D2322E1A600403ADD /* BugBattleImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502CB76B2322E1A600403ADD /* BugBattleImageEditorViewController.m */; };
