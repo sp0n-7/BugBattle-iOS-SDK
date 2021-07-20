@@ -15,8 +15,8 @@
 {
     // Override point for customization after application launch.
     
-    // Replace YOUR_TOKEN with your project API token.
-    [BugBattle initWithToken: @"YOUR_TOKEN" andActivationMethod: SHAKE];
+    // Replace YOUR_API_KEY with your project API token.
+    [BugBattle autoConfigureWithToken: @"J4ADFNfzzCdYWr8NBO4rozcb6NFeyyES"];
     
     return YES;
 }

@@ -11,11 +11,15 @@
 #endif
 
 #import "BugBattle.h"
-#import "BugBattleBugDetailsViewController.h"
 #import "BugBattleCore.h"
+#import "BugBattleHttpTrafficRecorder.h"
 #import "BugBattleImageEditorViewController.h"
+#import "BugBattleReplayHelper.h"
 #import "BugBattleTouchDrawImageView.h"
+#import "BugBattleTouchHelper.h"
+#import "BugBattleTranslationHelper.h"
 #import "UIWindow+BugBattleShakeRecognizer.h"
+#import "UIWindow+BugBattleTouchRecognizer.h"
 
 FOUNDATION_EXPORT double BugBattleVersionNumber;
 FOUNDATION_EXPORT const unsigned char BugBattleVersionString[];

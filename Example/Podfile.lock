@@ -1,16 +1,41 @@
 PODS:
-  - BugBattle (2.0.2)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.4.3)
+  - BugBattle (4.0.7)
 
 DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - Alamofire (~> 5.2)
   - BugBattle (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
 
 EXTERNAL SOURCES:
   BugBattle:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BugBattle: a925dffa0961761cb805bf4e51dc89f50fd78844
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BugBattle: eec6ff322ed025d5b6c46a6ec5dbf1ae9664f85e
 
-PODFILE CHECKSUM: 8f2ff902acee4f3236acf0948dfcb9bfbc5ea3bd
+PODFILE CHECKSUM: c3811e87179acc41d4efa59ac69232fffa64c294
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
